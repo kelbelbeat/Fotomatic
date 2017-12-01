@@ -290,9 +290,12 @@ header .mobile {
 
 @media only screen and (max-width: 760px) {
   #features-section {
-    flex-flow: column;
     padding: 0;
   }
+  #feature-section .feature {
+    margin:0;
+  }
+
 }
 
 /* Filters Section */
@@ -385,6 +388,7 @@ header .mobile {
 @media only screen and (max-width: 760px) {
   #quotes-section .content {
     padding: 1.875rem .625rem;
+    text-align: left;
   }
 
   #quotes-section .quote {
@@ -404,15 +408,13 @@ header .mobile {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
-  height:3.875rem;
   font-size:1.33rem;
-  
 }
 
 footer .content {
   color: white;
-  display: flex;
-  font-size: .75rem;
+display:flex;
+  font-size: 1rem;
 }
 
 footer .copyright {
