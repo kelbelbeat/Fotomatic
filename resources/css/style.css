@@ -233,6 +233,7 @@ header .mobile {
   padding: 4rem 5%;
   background-color: #f3f3f3;
   margin:0 auto;
+  flex-flow:column;
 }
 
 .feature {
